@@ -14,9 +14,9 @@
       "entryPoint": [],
       "portMappings": [
         {
-          "hostPort": 3000,
+          "hostPort": 80,
           "protocol": "tcp",
-          "containerPort": 3000
+          "containerPort": 80
         }
       ],
       "command": [],
@@ -34,7 +34,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "457797493549.dkr.ecr.us-east-2.amazonaws.com/myra-container-repository:f3e1209591fd386b1c5972ed8401def94a41311d",
+      "image": "httpd",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -51,6 +51,6 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "myra-app-server"
+      "name": "my-app-server"
     }
   ]
